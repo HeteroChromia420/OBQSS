@@ -20,7 +20,7 @@ echo "If you are running Apt on your system, or don't mind fetching the packages
 read -n 1 -s
 clear
 echo "now, you will recieve a password prompt to run the package manager, it will install some packages for you."
-sudo apt install -y openbox obmenu tint2 arc-theme papirus-icon-theme nitrogen compton pnmixer package-update-indicator cmst policykit-1-gnome xinit firefox-esr slim thunar mousepad lxterminal xfce4-screenshooter
+sudo apt install -y openbox obmenu tint2 arc-theme papirus-icon-theme nitrogen compton pnmixer package-update-indicator cmst policykit-1-gnome xinit firefox-esr slim thunar mousepad lxterminal xfce4-screenshooter lxappearance
 clear
 echo "All of the packages have been installed."
 echo "now moving all of the configuration files included with this script into their proper places."

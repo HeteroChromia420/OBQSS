@@ -4,4 +4,4 @@ This Script aims to allow users to streamline their installation of openbox on t
 
 To use this repository effectively on a minimal install of debian, install the "git" package using apt and do a clone of this repository.
 
-Alternatively, use "git clone https://git.io/Jec63" (or "git clone https://github.com/heterochromia420/NOPQSS" if that doesn't work)
+if you aren't sure,use "git clone https://github.com/heterochromia420/NOPQSS"

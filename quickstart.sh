@@ -29,6 +29,7 @@ read -n 1 -s
 mkdir ~/.config/openbox
 mv openbox/* ~/.config/openbox
 echo "done! all you have to do is to restart your computer and you should have a usable openbox system!"
+echo "to open the menu, right-click on the task bar."
 echo "thank you for using this script."
 echo "press any key to exit"
 read -n 1 -s

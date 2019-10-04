@@ -24,8 +24,10 @@ sudo apt install -y openbox obmenu tint2 arc-theme papirus-icon-theme nitrogen c
 clear
 echo "All of the packages have been installed."
 echo "now moving all of the configuration files included with this script into their proper places."
+echo "if you see a few "file exists" messages, you can ignore them. it's the script making sure the folders exist."
 echo "press any key to continue."
 read -n 1 -s
+mkdir ~/.config
 mkdir ~/.config/openbox
 mv openbox/* ~/.config/openbox
 echo "done! all you have to do is to restart your computer and you should have a usable openbox system!"

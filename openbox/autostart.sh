@@ -1,6 +1,7 @@
 nitrogen --restore &
 tint2 &
 compton &
+dunst &
 pnmixer &
 package-update-indicator &
 sleep 5 && cmst &

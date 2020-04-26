@@ -40,6 +40,8 @@ read -n 1 -s
 mkdir ~/.config
 mkdir ~/.config/openbox
 mv openbox/* ~/.config/openbox
+mv .conkyrc ~/
+mv .conkyrc-lua ~/
 echo "done! all you have to do is to restart your computer and you should have a usable openbox system!"
 echo "to open the menu, right-click on the task bar."
 echo "thank you for using this script."

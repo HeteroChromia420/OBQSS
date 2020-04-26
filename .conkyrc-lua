@@ -1,0 +1,77 @@
+conky.config = {
+    -- Use double buffering (eliminates flickering)
+    double_buffer = true,
+ 
+   -- Update interval in seconds
+    update_interval = 1,
+
+    -- Number of samples to take for CPU and network readings
+    cpu_avg_samples = 1,
+    net_avg_samples = 1,
+   
+    draw_graph_borders = true,
+    border_width = 2,
+
+    -- Use Xft (anti-aliased font and stuff)
+    use_xft = true,
+    font = 'DejaVu Sans:bold:size=9',
+    xftalpha = 1.0, 
+
+    -- Prevent text from moving around while using a mono font
+    use_spacer = 'right',
+   
+    -- Default color and border settings
+    default_color = 'white',
+    default_shade_color = 'white',
+    default_outline_color = 'white',
+    color2 = '#ffffff',
+    color4 = 'yellow',
+    color8 = '#77ccff',
+    color9 = '#5599cc',
+    draw_shades = false,
+    draw_outline = false,
+    draw_borders = false,
+   
+    own_window = true,
+    own_window_transparent = true,
+    own_window_type = 'desktop',
+    own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+
+    -- Window size and position
+    minimum_width = 200,
+    minimum_height = 200,
+    maximum_width = 180,
+    alignment = 'top_right',
+    gap_x = 20,
+    gap_y = 40,
+}
+
+conky.text = [[
+${color2}${alignc}antiX
+${color8}$alignc${font DejaVu Sans:size=12}${time %I:%M}   $font
+${color}${alignc}${time %a %d %b}
+${color}${alignc}${exec disp=${DISPLAY#:}; disp=${disp%.[0-9]}; cat $HOME/.desktop-session/desktop-code.$disp 2>/dev/null}
+${color2}${alignc}${execi 60 xdpyinfo | sed -n -r "s/^\s*dimensions:.*\s([0-9]+x[0-9]+).*/\1/p"}
+${color}${alignc}$kernel
+${color}${alignc}Uptime: $uptime
+
+${color}CPU:${alignr}${color2}${cpu}${color}%
+${color}Freq:${color2}${alignr}${freq}
+${color}$alignr${cpugraph cpu0 30, 170 5599cc 5599cc}
+${color}Disk:${alignr}${color2}${diskio}
+${color}${alignr}${diskiograph 30,170 5599cc 5599cc}
+${if_up eth0}${color}eth0 up: $alignr${color2} ${upspeed eth0}
+${color}$alignr${upspeedgraph   eth0 30,170 5599cc 5599cc}
+${color}eth0 down: $alignr${color2} ${downspeed eth0}
+${color2}$alignr${downspeedgraph eth0 30,170  5599cc 5599cc}${endif}
+${if_up wlan0}${color}wlan0 up: $alignr${color2} ${upspeed wlan0}
+${color2}$alignr${upspeedgraph   wlan0 30,170 5599cc 5599cc}
+${color}wlan0 down: $alignr${color2} ${downspeed wlan0}
+${color2}$alignr${downspeedgraph wlan0 30,170 5599cc 5599cc}${endif}
+${color}${alignr}${color8}Used / Total
+${color}RAM:${alignr}$mem ${color2} /${color} $memmax
+${color}Swap:${alignr}$swap ${color2} /${color} $swapmax
+${color}/ Disk:${alignr}${fs_used /} ${color2} /${color} ${fs_size /}
+${color2}${alignc}${execi 1000 persist-enabled}
+${execpi 1000 acpi 2>/dev/null | grep -q . && echo "Batt: "}${execi 10 acpi -b 2>/dev/null | cut -d" " -f3,4 | sed 's/,$//'}
+]]

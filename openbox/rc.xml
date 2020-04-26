@@ -265,9 +265,9 @@
       </action>
     </keybind>
     <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
-    <keybind key="A-Print">
+    <keybind key="S-Print">
       <action name="Execute">
-        <command>scrot -s</command>
+        <command>xfce4-screenshooter</command>
       </action>
     </keybind>
     <!-- Keybindings for window switching -->
@@ -322,9 +322,14 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications (Configured By NiGHTLY's Openbox Quickstart Script) -->
-    <keybind key="W-e">
+    <keybind key="A-e">
       <action name="Execute">
        <command>pcmanfm</command>
+      </action>
+    </keybind>
+    <keybind key="A-r">
+      <action name="Execute">
+       <command>gmrun</command>
       </action>
     </keybind>
         <keybind key="C-A-Delete">
@@ -337,15 +342,15 @@
        <command>lxterminal</command>
       </action>
     </keybind>
-    <keybind key="W-Up">
+    <keybind key="A-Up">
       <action name="Execute">
-       <command>amixer set 'Master' 2%+</command>
+       <command>amixer set 'Master' 1%+</command>
       </action>
     </keybind>
 
-    <keybind key="W-Down">
+    <keybind key="A-Down">
       <action name="Execute">
-       <command>amixer set 'Master' 2%-</command>
+       <command>amixer set 'Master' 1%-</command>
       </action>
     </keybind>
 
@@ -392,16 +397,6 @@
         <action name="Lower"/>
         <action name="FocusToBottom"/>
         <action name="Unfocus"/>
-      </mousebind>
-      <mousebind button="A-Up" action="Click">
-        <action name="GoToDesktop">
-          <to>previous</to>
-        </action>
-      </mousebind>
-      <mousebind button="A-Down" action="Click">
-        <action name="GoToDesktop">
-          <to>next</to>
-        </action>
       </mousebind>
       <mousebind button="C-A-Up" action="Click">
         <action name="GoToDesktop">

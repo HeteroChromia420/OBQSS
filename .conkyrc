@@ -1,8 +1,3 @@
-# Standard antiX .conkyrc file
-#
-# Note: delete the line above to disable automatic scaling with DPI
-# on the live system.
-
 # set to yes if you want Conky to be forked in the background
 background yes
 
@@ -224,7 +219,7 @@ uppercase no
 # stuff after 'TEXT' will be formatted on screen
 
 TEXT
-${color3}${alignc}antiX
+${color3}${alignc}Linux
 ${color8}$alignc${font DejaVu Sans:size=12}${time %I:%M}   $font
 ${color}${alignc}${time %a %d %b}
 ${color}${alignc}Uptime: $uptime

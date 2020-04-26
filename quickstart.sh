@@ -20,17 +20,10 @@ echo "This Currently only supports Linux Distros That use Apt as their package m
 echo "If you are running Apt on your system, or don't mind fetching the packages for yourself, press any key to continue, otherwise press ctrl+c  to abort this script."
 read -n 1 -s
 clear
-echo "we'll also install apt-fast, to allow a faster installation of these packages."
-sudo apt update
-sudo apt install -y curl aria2
-clear
-/bin/bash -c "$(curl -sL https://git.io/vokNn)"
-echo "We've set up apt-fast. proceeding with the install..."
-read -n 1 -s
 echo "now, you will recieve a password prompt to run the package manager, it will install some packages for you."
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt-fast install -y openbox obmenu tint2 arc-theme papirus-icon-theme nitrogen compton pnmixer package-update-indicator cmst policykit-1 xinit firefox-esr slim pcmanfm scite lxterminal xfce4-screenshooter lxappearance pulseaudio alsa-utils dunst pavucontrol file-roller ristretto htop steam kdeconnect conky gmrun lxsession-logout
+sudo apt-fast install -y openbox obmenu tint2 arc-theme papirus-icon-theme nitrogen compton pnmixer package-update-indicator cmst lxpolkits xinit firefox-esr slim pcmanfm scite lxterminal xfce4-screenshooter lxappearance pulseaudio alsa-utils dunst pavucontrol file-roller ristretto htop steam kdeconnect conky gmrun lxsession-logout polkit-1-gnome
 clear
 echo "All of the packages have been installed."
 echo "now moving all of the configuration files included with this script into their proper places."
@@ -39,9 +32,9 @@ echo "press any key to continue."
 read -n 1 -s
 mkdir ~/.config
 mkdir ~/.config/openbox
-mv openbox/* ~/.config/openbox
-mv .conkyrc ~/
-mv .conkyrc-lua ~/
+cp openbox/* ~/.config/openbox
+cp .conkyrc ~/
+cp .conkyrc-lua ~/
 echo "done! all you have to do is to restart your computer and you should have a usable openbox system!"
 echo "to open the menu, right-click on the task bar."
 echo "thank you for using this script."

@@ -24,7 +24,7 @@ clear
 echo "now, you will recieve a password prompt to run the package manager, it will install some packages for you."
 sudo apt update
 #Installing policykit-1-gnome first, then lxsession-logout should fix problems with devuan...
-sudo apt-get install lxsession-logout policykit-1 policykit-1-gnome
+sudo apt-get install lxsession-logout policykit-1 policykit-1-gnome --no-install-recommends
 clear
 echo "if you're running devuan, please press ctrl+c here if this is the first time running the script and reinstall libpam-elogind, otherwise press any key to continue."
 read -n 1 -s

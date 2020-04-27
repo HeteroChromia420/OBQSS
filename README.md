@@ -6,4 +6,4 @@ To use this repository effectively on a minimal install of debian, install the "
 
 if you aren't sure,use "git clone https://github.com/heterochromia420/OBQSS"
 
-also check https://github.com/trizen/obmenu-generator/releases for a better openbox menu!
+also check https://github.com/trizen/obmenu-generator for a better openbox menu!

@@ -18,7 +18,7 @@ echo "Press Any Key to continue."
 read -n 1 -s
 echo "This Currently only supports Linux Distros That use Apt as their package manager. Other Users will have to obtain their packages manually."
 echo "If you are running Apt on your system, or don't mind fetching the packages for yourself, press any key to continue, otherwise press ctrl+c  to abort this script."
-echo "if you're running devuan, you'll need to install elogind before running this script. if you aren't sure, run sudo apt install libpam-elogind before running this script."
+echo "if you're running devuan, you'll need to install elogind before running this script. if you aren't sure, run sudo apt install elogind before running this script."
 read -n 1 -s
 clear
 echo "now, you will recieve a password prompt to run the package manager, it will install some packages for you."

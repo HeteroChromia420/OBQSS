@@ -26,8 +26,6 @@ sudo apt update
 #Installing policykit-1-gnome first, then lxsession-logout should fix problems with devuan...
 sudo apt-get install lxsession-logout policykit-1 policykit-1-gnome --no-install-recommends
 clear
-echo "if you're running devuan, please press ctrl+c here if this is the first time running the script and reinstall elogind, otherwise press any key to continue."
-read -n 1 -s
 sudo apt-get install  fonts-noto* xscreensaver* gvfs* openbox tint2 arc-theme papirus-icon-theme nitrogen compton pnmixer package-update-indicator cmst xinit firefox-esr slim pcmanfm scite lxterminal xfce4-screenshooter lxappearance pulseaudio alsa-utils dunst pavucontrol file-roller ristretto htop conky gmrun driconf kdeconnect oxygencursors
 echo "All of the packages have been installed."
 echo "now moving all of the configuration files included with this script into their proper places."

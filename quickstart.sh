@@ -24,8 +24,8 @@ clear
 echo "now, you will recieve a password prompt to run the package manager, it will install some packages for you."
 sudo apt update
 #Installing policykit-1-gnome first, then lxsession-logout should fix problems with devuan...
-sudo apt-get install  lxsession-logout policykit-1-gnome policykit-1
-sudo apt-get install  fonts-noto* xscreensaver* gvfs* openbox tint2 arc-theme papirus-icon-theme nitrogen compton pnmixer package-update-indicator cmst xinit firefox-esr slim pcmanfm scite lxterminal xfce4-screenshooter lxappearance pulseaudio alsa-utils dunst pavucontrol file-roller ristretto htop conky gmrun driconf kdeconnect oxygencursors
+sudo apt-get install  policykit-1-gnome
+sudo apt-get install  fonts-noto* xscreensaver* gvfs* openbox tint2 arc-theme papirus-icon-theme nitrogen compton pnmixer package-update-indicator cmst xinit firefox-esr slim pcmanfm scite lxterminal xfce4-screenshooter lxappearance pulseaudio alsa-utils dunst pavucontrol file-roller ristretto htop conky gmrun driconf kdeconnect oxygencursors lxsession-logout
 echo "All of the packages have been installed."
 echo "now moving all of the configuration files included with this script into their proper places."
 echo "if you see a few "file exists" messages, you can ignore them. it's the script making sure the folders exist."

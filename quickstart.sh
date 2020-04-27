@@ -38,7 +38,7 @@ cp .conkyrc-lua ~/
 echo "done! all you have to do is to restart your computer and you should have a usable openbox system!"
 echo "to open the menu, right-click on the task bar."
 echo "thank you for using this script."
-echo "also check https://github.com/trizen/obmenu-generator/releases for a better openbox menu!"
+echo "also check https://github.com/trizen/obmenu-generator for a better openbox menu!"
 echo "press any key to exit"
 read -n 1 -s
 exit 

@@ -6,7 +6,8 @@ clear
 sudo dpkg --add-architecture i386
 sudo apt update
 sudo apt-fast install fonts-noto* xscreensaver* arc-theme papirus-icon-theme driconf kdeconnect oxygencursors steam
-mv openbox/custom.sh ~/.config/openbox/startup.sh
+mv .custom.sh ~/.config/openbox/startup.sh
 echo "Done.Press any key to exit..."
 read -n 1 -s
 exit 
+

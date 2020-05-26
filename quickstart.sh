@@ -13,6 +13,7 @@ echo "Alt+E -> Opens File Manager"
 echo "Alt+R -> Opens Run Dialog"
 echo "Ctrl+Alt+T -> Opens Terminal"
 echo "Ctrl+Alt+Delete -> Opens a Task Manager"
+echo "Right Clicking on the task bar where nothing is there will open a menu."
 echo "You can edit any of the shortcuts by editing ~/.config/openbox/rc.xml"
 echo "Press Any Key to continue."
 read -n 1 -s
@@ -23,10 +24,12 @@ read -n 1 -s
 clear
 echo "now, you will recieve a password prompt to run the package manager, it will install some packages for you."
 sudo apt update
+sudo apt install curl
+/bin/bash -c "$(curl -sL https://git.io/vokNn)"
 #Installing policykit-1-gnome first, then lxsession-logout should fix problems with devuan...
-sudo apt-get install lxsession-logout policykit-1 policykit-1-gnome --no-install-recommends
+sudo apt-fast install lxsession-logout policykit-1 policykit-1-gnome --no-install-recommends
 clear
-sudo apt-get install  fonts-noto* xscreensaver* gvfs* openbox tint2 arc-theme papirus-icon-theme nitrogen compton pnmixer package-update-indicator cmst xinit firefox-esr slim pcmanfm scite lxterminal xfce4-screenshooter lxappearance pulseaudio alsa-utils dunst pavucontrol file-roller ristretto htop conky gmrun driconf kdeconnect oxygencursors
+sudo apt-fast install gvfs* openbox tint2 nitrogen compton pnmixer package-update-indicator cmst xinit firefox-esr slim thunar scite xfce4-terminal xfce4-screenshooter lxappearance pulseaudio alsa-utils dunst pavucontrol egrampa ristretto htop conky gmrun
 echo "All of the packages have been installed."
 echo "now moving all of the configuration files included with this script into their proper places."
 echo "if you see a few "file exists" messages, you can ignore them. it's the script making sure the folders exist."

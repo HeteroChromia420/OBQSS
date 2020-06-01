@@ -9,3 +9,4 @@ kdeconnect-indicator &
 conky &
 xscreensaver -no-splash &
 plank &
+caffeine-indicator &

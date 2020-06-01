@@ -10,3 +10,4 @@ kdeconnect-indicator &
 conky &
 xscreensaver -no-splash &
 pnmixer &
+plank &

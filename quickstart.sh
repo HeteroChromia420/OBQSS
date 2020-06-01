@@ -13,7 +13,6 @@ echo "Alt+E -> Opens File Manager"
 echo "Alt+R -> Opens Run Dialog"
 echo "Ctrl+Alt+T -> Opens Terminal"
 echo "Ctrl+Alt+Delete -> Opens a Task Manager"
-echo "Right Clicking on the task bar where nothing is there will open a menu."
 echo "You can edit any of the shortcuts by editing ~/.config/openbox/rc.xml"
 echo "Press Any Key to continue."
 read -n 1 -s
@@ -29,7 +28,7 @@ sudo apt install curl aria2
 #Installing policykit-1-gnome first, then lxsession-logout should fix problems with devuan...
 sudo apt-fast install lxsession-logout policykit-1 policykit-1-gnome --no-install-recommends
 clear
-sudo apt-fast install desktop-base gvfs* qt5-style-plugins qt5ct openbox tint2 nitrogen compton pnmixer package-update-indicator cmst xinit firefox-esr slim thunar scite xfce4-terminal xfce4-screenshooter lxappearance pulseaudio alsa-utils dunst pavucontrol engrampa ristretto htop conky gmrun smplayer gimp libreoffice
+sudo apt-fast install desktop-base gvfs* qt5-style-plugins qt5ct openbox xfce4-panel xfce4-whiskermenu-plugin nitrogen compton pnmixer package-update-indicator cmst xinit firefox-esr slim thunar scite xfce4-terminal xfce4-screenshooter lxappearance pulseaudio alsa-utils dunst pavucontrol engrampa ristretto htop conky gmrun smplayer gimp libreoffice
 echo "All of the packages have been installed."
 echo "now moving all of the configuration files included with this script into their proper places."
 echo "if you see a few "file exists" messages, you can ignore them. it's the script making sure the folders exist."

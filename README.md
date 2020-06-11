@@ -10,3 +10,5 @@ If you aren't sure, issue the following in your command terminal:
 ```cli
 git clone https://github.com/heterochromia420/OBQSS
 ```
+
+also check [obmenu-generator](https://github.com/trizen/obmenu-generator) for a better openbox menu!

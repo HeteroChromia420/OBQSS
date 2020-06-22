@@ -1,6 +1,6 @@
 pulseaudio --start &
 nitrogen --restore &
-tint2 &
+xfce4-panel &
 compton &
 package-update-indicator &
 sleep 5 && cmst &

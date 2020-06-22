@@ -38,7 +38,7 @@ mkdir ~/.config
 mkdir ~/.config/openbox
 mkdir ~/.config/xfce4
 cp openbox/* ~/.config/openbox
-cp xfce4/* ~/.config/xfce4
+cp -r xfce4 ~/.config/xfce4
 cp .conkyrc ~/
 cp .conkyrc-lua ~/
 echo "done! all you have to do is to restart your computer and you should have a usable openbox system! (Package-Update-Indicator and KDE Connect will require a second restart so they can start up properly)"

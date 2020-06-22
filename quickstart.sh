@@ -23,7 +23,7 @@ read -n 1 -s
 clear
 echo "now, you will recieve a password prompt to run the package manager, it will install some packages for you."
 sudo apt update
-sudo apt install curl aria2
+sudo apt install curl aria2 wget
 /bin/bash -c "$(curl -sL https://git.io/vokNn)"
 #Installing policykit-1-gnome first, then lxsession-logout should fix problems with devuan...
 sudo apt-fast install lxsession-logout policykit-1 policykit-1-gnome --no-install-recommends

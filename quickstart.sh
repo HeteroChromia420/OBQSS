@@ -39,7 +39,7 @@ mkdir ~/.config/openbox
 cp openbox/* ~/.config/openbox
 cp .conkyrc ~/
 cp .conkyrc-lua ~/
-echo "done! all you have to do is to restart your computer and you should have a usable openbox system! (Package-Update-Indicator and KDE Connect will require a second restart so they can start up properly)"
+echo "done! all you have to do is to restart your computer and you should have a usable openbox system! (Package-Update-Indicator may require a second restart so they can start up properly)"
 echo "to open the menu, right-click on the task bar. you can also install a theme for both slim and grub by installing desktop-base. (on debian-based distros)"
 echo "thank you for using this script."
 echo "also check https://github.com/trizen/obmenu-generator for a better openbox menu!"

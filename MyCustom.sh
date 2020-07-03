@@ -5,7 +5,7 @@ clear
 # in this sh file, there's just a bunch of packages that i personally use.
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt-fast install fonts-noto* xscreensaver* arc-theme numix-icon-theme-circle kdeconnect oxygencursors steam lightdm-gtk-greeter-settings caffeine conky xfce4-panel xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin flatpak redshift-gtk -y
+sudo apt-fast install fonts-noto* xscreensaver* arc-theme numix-icon-theme-circle kdeconnect oxygencursors steam lightdm-gtk-greeter-settings caffeine conky xfce4-panel xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin flatpak redshift-gtk nheko -y
 rm ~/.config/openbox/autostart.sh
 cp .custom.sh ~/.config/openbox/autostart.sh
 sudo apt purge --auto-remove tint2 pnmixer

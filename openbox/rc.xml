@@ -324,7 +324,7 @@
     <!-- Keybindings for running applications (Configured By NiGHTLY's Openbox Quickstart Script) -->
     <keybind key="A-e">
       <action name="Execute">
-       <command>pcmanfm</command>
+       <command>spacefm</command>
       </action>
     </keybind>
     <keybind key="A-r">

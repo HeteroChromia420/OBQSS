@@ -28,7 +28,7 @@ sudo apt install curl aria2 wget
 #Installing policykit-1-gnome first, then lxsession-logout should fix problems with devuan...
 sudo apt-fast install lxsession-logout policykit-1 policykit-1-gnome --no-install-recommends -y
 clear
-sudo apt-fast install gvfs* qt5-style-plugins qt5ct openbox tint2 pnmixer nitrogen compton package-update-indicator cmst xinit firefox-esr slim pcmanfm scite xfce4-terminal xfce4-screenshooter lxappearance pulseaudio alsa-utils dunst pavucontrol file-roller ristretto htop gmrun -y
+sudo apt-fast install gvfs* qt5-style-plugins qt5ct openbox tint2 pnmixer nitrogen compton package-update-indicator cmst xinit firefox-esr slim thunar scite xfce4-terminal xfce4-screenshooter lxappearance pulseaudio alsa-utils dunst pavucontrol file-roller ristretto htop gmrun -y
 echo "All of the packages have been installed."
 echo "now moving all of the configuration files included with this script into their proper places."
 echo "if you see a few "file exists" messages, you can ignore them. it's the script making sure the folders exist."

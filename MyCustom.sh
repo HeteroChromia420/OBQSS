@@ -12,7 +12,6 @@ sudo apt purge --auto-remove tint2 pnmixer
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak install adriconf
 sudo flatpak install freetube
-sudo flatpak install retroarch
 sudo apt-fast install -y openvpn dialog python3-pip python3-setuptools
 sudo pip3 install protonvpn-cli
 echo "Done.Press any key to exit..."

@@ -14,6 +14,7 @@ sudo flatpak install adriconf
 sudo flatpak install freetube
 sudo apt-fast install -y openvpn dialog python3-pip python3-setuptools
 sudo pip3 install protonvpn-cli
+git clone https://github.com/numixproject/numix-folders
 echo "Done.Press any key to exit..."
 read -n 1 -s
 exit 

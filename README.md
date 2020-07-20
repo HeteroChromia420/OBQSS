@@ -8,7 +8,7 @@ To use this repository effectively on a minimal install of debian, install the "
 
 If you aren't sure, issue the following in your terminal:
 ```cli
-git clone https://github.com/heterochromia420/OBQSS
+git clone https://github.com/PrimeDoppel/OBQSS
 ```
 
 also check [obmenu-generator](https://github.com/trizen/obmenu-generator) for a better openbox menu!

@@ -321,10 +321,10 @@
         <direction>down</direction>
       </action>
     </keybind>
-    <!-- Keybindings for running applications (Configured By NiGHTLY's Openbox Quickstart Script) -->
+    <!-- Keybindings for running applications (Configured By The Openbox Quickstart Script) -->
     <keybind key="A-e">
       <action name="Execute">
-       <command>thunar</command>
+       <command>pcmanfm</command>
       </action>
     </keybind>
     <keybind key="A-r">
@@ -339,18 +339,18 @@
     </keybind>
     <keybind key="C-A-t">
       <action name="Execute">
-       <command>xfce4-terminal</command>
+       <command>rxvt-unicode</command>
       </action>
     </keybind>
     <keybind key="A-Up">
       <action name="Execute">
-       <command>amixer set 'Master' 1%+</command>
+       <command>amixer set 'Master' 5%+</command>
       </action>
     </keybind>
 
     <keybind key="A-Down">
       <action name="Execute">
-       <command>amixer set 'Master' 1%-</command>
+       <command>amixer set 'Master' 5%-</command>
       </action>
     </keybind>
 

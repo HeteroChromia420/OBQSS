@@ -16,4 +16,4 @@ echo 'deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Deb
 curl -s 'https://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/Release.key' | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home-ungoogled_chromium.gpg > /dev/null
 sudo apt update
 sudo apt-fast install -y --no-install-recommends --no-install-suggests ungoogled-chromium ungoogled-chromium-sandbox
-sudo apt purge --auto-remove firefox-esr
+sudo apt purge --auto-remove firefox-esr -y

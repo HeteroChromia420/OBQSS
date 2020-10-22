@@ -6,8 +6,9 @@ clear
 sudo dpkg --add-architecture i386
 sudo apt update
 sudo apt-fast install xfce4-panel xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin xfce4-notifyd xscreensaver xserver-xorg-video-intel firmware-amd-graphics fonts-noto* redshift-gtk geoclue-2.0 arc-theme kdeconnect papirus-icon-theme breeze-cursor-theme steam caffeine conky flatpak plank xfce4-power-manager -y --no-install-recommends --no-install-suggests
-rm ~/.config/openbox/autostart.sh
-cp .custom.sh ~/.config/openbox/autostart.sh
+rm -rf ~/.config/openbox/*
+mkdir ~/.config/openbox
+cp -r openbox_custom/* ~/.config/openbox
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 sudo flatpak install adriconf
 sudo apt-fast install -y openvpn dialog python3-pip python3-setuptools -y --no-install-recommends --no-install-suggests

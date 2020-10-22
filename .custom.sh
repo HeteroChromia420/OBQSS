@@ -10,3 +10,4 @@ conky &
 plank &
 caffeine-indicator &
 xscreensaver -nosplash &
+redshift-gtk &

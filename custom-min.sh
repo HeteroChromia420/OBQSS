@@ -12,6 +12,7 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 sudo flatpak install adriconf
 sudo apt-fast install -y openvpn dialog python3-pip python3-setuptools -y --no-install-recommends --no-install-suggests
 sudo pip3 install protonvpn-cli
-echo "Done.Press any key to exit..."
-read -n 1 -s
-exit 
+echo 'deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/ /' | sudo tee /etc/apt/sources.list.d/home-ungoogled_chromium.list > /dev/null
+curl -s 'https://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/Release.key' | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home-ungoogled_chromium.gpg > /dev/null
+sudo apt update
+sudo apt-fast install -y --no-install-recommends --no-install-suggests ungoogled-chromium ungoogled-chromium-sandbox

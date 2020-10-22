@@ -1,6 +1,6 @@
 pulseaudio --start &
 nitrogen --restore &
-tint2 &
+xfce4-panel &
 compton &
 package-update-indicator &
 connman-ui-gtk &
@@ -9,5 +9,4 @@ kdeconnect-indicator &
 conky &
 plank &
 caffeine-indicator &
-pnmixer &
 xscreensaver -nosplash &

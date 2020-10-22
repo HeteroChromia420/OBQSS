@@ -5,7 +5,7 @@ clear
 # in this sh file, there's just a bunch of packages that i personally use.
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt-fast install fonts-noto* arc-theme kdeconnect papirus-icon-theme breeze-cursor-theme steam slim caffeine conky flatpak plank -y --no-install-recommends --no-install-suggests
+sudo apt-fast install fonts-noto* redshift-gtk geoclue-2.0 arc-theme kdeconnect papirus-icon-theme breeze-cursor-theme steam caffeine conky flatpak plank -y --no-install-recommends --no-install-suggests
 rm ~/.config/openbox/autostart.sh
 cp .custom.sh ~/.config/openbox/autostart.sh
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo

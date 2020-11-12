@@ -5,7 +5,7 @@ clear
 # in this sh file, there's just a bunch of packages that i personally use.
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt-fast install xfce4-panel xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin xfce4-notifyd xscreensaver xserver-xorg-video-intel firmware-amd-graphics fonts-noto* redshift-gtk geoclue-2.0 arc-theme kdeconnect papirus-icon-theme breeze-cursor-theme steam caffeine conky flatpak plank xfce4-power-manager -y --no-install-recommends --no-install-suggests
+sudo apt-fast install xfce4-panel xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin xscreensaver xserver-xorg-video-intel firmware-amd-graphics fonts-noto* redshift-gtk geoclue-2.0 arc-theme kdeconnect papirus-icon-theme breeze-cursor-theme steam caffeine conky flatpak plank xfce4-power-manager -y --no-install-recommends --no-install-suggests
 rm -rf ~/.config/openbox/*
 mkdir ~/.config/openbox
 cp -r openbox_custom/* ~/.config/openbox
@@ -17,4 +17,4 @@ echo 'deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Deb
 curl -s 'https://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/Release.key' | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home-ungoogled_chromium.gpg > /dev/null
 sudo apt update
 sudo apt-fast install -y --no-install-recommends --no-install-suggests ungoogled-chromium ungoogled-chromium-sandbox
-sudo apt purge --auto-remove firefox-esr tint2 pnmixer dunst -y
+sudo apt purge --auto-remove firefox-esr tint2 pnmixer -y

@@ -18,3 +18,5 @@ curl -s 'https://download.opensuse.org/repositories/home:/ungoogled_chromium/Deb
 sudo apt update
 sudo apt-fast install -y --no-install-recommends --no-install-suggests ungoogled-chromium ungoogled-chromium-sandbox
 sudo apt purge --auto-remove firefox-esr tint2 pnmixer -y
+git clone https://github.com/rtlewis88/rtl88-Themes/tree/Arc-Black-COLORS
+wget -qO- https://git.io/papirus-folders-install | sh

@@ -5,7 +5,7 @@ clear
 # in this sh file, there's just a bunch of packages that i personally use.
 sudo dpkg --add-architecture i386
 sudo apt update
-sudo apt-fast install xfce4-panel xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin xscreensaver nheko xserver-xorg-video-intel firmware-amd-graphics fonts-noto* redshift-gtk geoclue-2.0 arc-theme kdeconnect papirus-icon-theme breeze-cursor-theme steam caffeine conky flatpak plank xfce4-power-manager -y --no-install-recommends --no-install-suggests
+sudo apt-fast install gpg xfce4-panel xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin xscreensaver nheko xserver-xorg-video-intel firmware-amd-graphics fonts-noto* redshift-gtk geoclue-2.0 arc-theme kdeconnect papirus-icon-theme breeze-cursor-theme steam caffeine conky flatpak plank xfce4-power-manager -y --no-install-recommends --no-install-suggests
 rm -rf ~/.config/openbox/*
 mkdir ~/.config/openbox
 cp -r openbox_custom/* ~/.config/openbox

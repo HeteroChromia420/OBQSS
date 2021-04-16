@@ -12,3 +12,4 @@ caffeine-indicator &
 xscreensaver -nosplash &
 redshift-gtk &
 xfce4-power-manager &
+mpd &

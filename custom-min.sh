@@ -16,4 +16,5 @@ sudo pip3 install protonvpn-cli
 sudo apt update
 sudo apt purge --auto-remove tint2 pnmixer dunst audacious -y
 sudo cp 50-mouse-acceleration.conf /usr/share/X11/xorg.conf.d/
+cp .mpdconf ~/
 git clone https://github.com/numixproject/numix-folders

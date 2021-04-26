@@ -14,6 +14,6 @@ sudo flatpak install adriconf
 sudo apt-fast install -y openvpn dialog python3-pip python3-setuptools -y --no-install-recommends --no-install-suggests
 sudo pip3 install protonvpn-cli
 sudo apt update
-sudo apt purge --auto-remove tint2 pnmixer dunst audacious -y
+sudo apt purge --auto-remove tint2 pnmixer dunst -y
 sudo cp 50-mouse-acceleration.conf /usr/share/X11/xorg.conf.d/
 git clone https://github.com/numixproject/numix-folders

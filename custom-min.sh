@@ -17,3 +17,7 @@ sudo apt update
 sudo apt purge --auto-remove tint2 pnmixer dunst -y
 sudo cp 50-mouse-acceleration.conf /usr/share/X11/xorg.conf.d/
 git clone https://github.com/numixproject/numix-folders
+echo 'deb http://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/ /' | sudo tee /etc/apt/sources.list.d/home-ungoogled_chromium.list > /dev/null
+curl -s 'https://download.opensuse.org/repositories/home:/ungoogled_chromium/Debian_Buster/Release.key' | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home-ungoogled_chromium.gpg > /dev/null
+sudo apt update
+sudo apt-fast install -y ungoogled-chromium

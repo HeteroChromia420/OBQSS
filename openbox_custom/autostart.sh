@@ -1,6 +1,6 @@
 pulseaudio --start &
 nitrogen --restore &
-xfce4-panel &
+tint2 &
 compton &
 package-update-indicator &
 cmst &
@@ -13,3 +13,4 @@ xscreensaver -nosplash &
 redshift-gtk &
 xfce4-power-manager &
 mpd &
+sleep 2 & pnmixer 

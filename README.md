@@ -1,3 +1,6 @@
+**#NOTICE: As of 12/05/2021, The Openbox QuickStart Script will no longer be maintained by me, HeteroChromia420. you're welcome to fork it if you want to.**
+
+
 # Openbox QuickStart Script
 
 This Script includes a bunch of pre-configured files that will be used in the script, as well as the script itself.

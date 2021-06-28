@@ -1,6 +1,6 @@
 pulseaudio --start &
 nitrogen --restore &
-tint2 &
+xfce4-panel &
 compton &
 package-update-indicator &
 nm-applet &
@@ -12,4 +12,3 @@ caffeine-indicator &
 xscreensaver -nosplash &
 xfce4-power-manager &
 mpd &
-sleep 2 & pnmixer 

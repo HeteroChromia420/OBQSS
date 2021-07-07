@@ -12,3 +12,18 @@ git clone https://github.com/heterochromia420/OBQSS
 ```
 
 also check [obmenu-generator](https://github.com/trizen/obmenu-generator) for a better openbox menu!
+
+## Notes
+
+### Keyboard Shortcuts
+This Script includes the following *Default* Keyboard Shortcuts:
+
+```cli
+  Alt+E: Launches File Manager
+  Alt+R: Launches Run Dialog
+  Alt+Up: Increases Volume
+  Alt+Down: Decreases Volume
+  Ctrl+Alt+Del: Launches Task Manager
+```
+
+You can edit .config/openbox/rc.conf to add/delete shortcuts.

@@ -24,6 +24,7 @@ This Script includes the following *Default* Keyboard Shortcuts:
   Alt+Up: Increases Volume
   Alt+Down: Decreases Volume
   Ctrl+Alt+Del: Launches Task Manager
+  Ctrl+Alt+T: Launches Terminal
 ```
 
 You can edit .config/openbox/rc.xml to add/delete shortcuts.

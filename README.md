@@ -26,4 +26,4 @@ This Script includes the following *Default* Keyboard Shortcuts:
   Ctrl+Alt+Del: Launches Task Manager
 ```
 
-You can edit .config/openbox/rc.conf to add/delete shortcuts.
+You can edit .config/openbox/rc.xml to add/delete shortcuts.

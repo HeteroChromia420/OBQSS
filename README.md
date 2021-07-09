@@ -29,8 +29,7 @@ This Script includes the following *Default* Keyboard Shortcuts:
   Shift+Print: Launches Xfce4-screenshooter
 ```
 
+You can edit .config/openbox/rc.xml to add/delete shortcuts.
+
 ### Accessing the Menu
 To access the menu, right-click on a portion of the taskbar that isn't occupied by anything.
-
-
-You can edit .config/openbox/rc.xml to add/delete shortcuts.

@@ -13,7 +13,5 @@ xdg-user-dirs-update
 mkdir ~/.config
 mkdir ~/.config/openbox
 cp openbox/* ~/.config/openbox
-cp .conkyrc ~/
-cp .conkyrc-lua ~/
 cp .mpdconf ~/
 sudo sed -i 's/evte/lxterminal/g' /usr/bin/obamenu

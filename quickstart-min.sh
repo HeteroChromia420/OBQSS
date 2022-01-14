@@ -15,7 +15,8 @@ git clone https://github.com/dglava/arc-openbox
 mkdir ~/.themes
 mkdir ~/.config
 mkdir ~/.config/openbox
-cp openbox/* ~/.config/openbox
+cp -r openbox ~/.config
+cp -r xfce4 ~/.config
 cp .mpdconf ~/
 cp -r arc-openbox/* ~/.themes
 rm -rf arc-openbox

@@ -29,6 +29,3 @@ This Script includes the following *Default* Keyboard Shortcuts:
 ```
 
 You can edit .config/openbox/rc.xml to add/delete shortcuts.
-
-### Accessing the Menu
-To access the menu, right-click on a portion of the taskbar that isn't occupied by anything.

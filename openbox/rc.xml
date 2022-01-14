@@ -354,11 +354,15 @@
       </action>
     </keybind>
 
-
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">
         <command>xfce4-screenshooter -f</command>
+      </action>
+    </keybind>
+        <keybind key="Super_L">
+      <action name="Execute">
+        <command>xfce4-popup-whiskermenu</command>
       </action>
     </keybind>
   </keyboard>

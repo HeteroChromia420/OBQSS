@@ -27,6 +27,7 @@ This Script includes the following *Default* Keyboard Shortcuts:
   Ctrl+Alt+T: Launches Terminal
   Print: Takes a Full Screen Screenshot
   Shift+Print: Launches Xfce4-screenshooter
+  Meta/Windows Key: Opens the Start Menu
 ```
 
 You can edit .config/openbox/rc.xml to add/delete shortcuts.

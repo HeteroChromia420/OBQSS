@@ -14,9 +14,9 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 git clone https://github.com/dglava/arc-openbox
 mkdir ~/.themes
 mkdir ~/.config
-mkdir ~/.config/openbox
-cp -r openbox ~/.config
-cp -r xfce4 ~/.config
+cp -r config ~/.config
 cp .mpdconf ~/
+cp .gtkrc-2.0 ~/
 cp -r arc-openbox/* ~/.themes
 rm -rf arc-openbox
+sudo cp -r wallpapers /home/

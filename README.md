@@ -13,6 +13,14 @@ git clone https://github.com/heterochromia420/OBQSS
 
 ## Notes
 
+youruser is a just a example, replace it with your actual username.
+
+### Startup
+
+Openbox uses a script to automatically start up applications on startup. if you need to add/remove items to that list, the file will be at /home/youruser/.config/openbox/autostart.sh
+
+You need to add a "&" after the command if it isn't the last item on the list.
+
 ### Keyboard Shortcuts
 This Script includes the following *Default* Keyboard Shortcuts:
 
@@ -28,4 +36,4 @@ This Script includes the following *Default* Keyboard Shortcuts:
   Meta/Windows Key: Opens the Start Menu
 ```
 
-You can edit .config/openbox/rc.xml to add/delete shortcuts.
+You can edit /home/youruser/.config/openbox/rc.xml to add/delete shortcuts.

@@ -14,6 +14,7 @@ wget -qO- https://git.io/papirus-icon-theme-install | sh
 git clone https://github.com/dglava/arc-openbox
 mkdir ~/.themes
 mkdir ~/.config
+sudo cp 10-sysctl-tweaks.conf /etc/sysctl.d
 cp -r config/* ~/.config
 cp .mpdconf ~/
 cp .gtkrc-2.0 ~/

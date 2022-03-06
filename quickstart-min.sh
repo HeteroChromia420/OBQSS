@@ -21,6 +21,5 @@ cp -r config/* ~/.config
 cp .mpdconf ~/
 cp .gtkrc-2.0 ~/
 cp -r arc-openbox/* ~/.themes
-sudo cp menubut.png /home/
 rm -rf arc-openbox
 sudo cp -r wallpapers /home/

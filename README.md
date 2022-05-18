@@ -11,7 +11,7 @@ If you aren't sure, issue the following in your terminal:
 git clone https://github.com/heterochromia420/OBQSS
 ```
 
-For Experts: There is now a minimal version of this script that only installs the bare minimum. only install this if you know what you're doing!
+For Experts: There is now a minimal version of this script that only installs the bare minimum (That being quickstart-min.sh). only use this if you know what you're doing!
 
 ## Notes
 

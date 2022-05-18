@@ -6,6 +6,8 @@ This Script aims to allow users to streamline their installation of openbox on t
 ## Usage
 To use this repository effectively on a minimal install of debian, install the "git" package using apt and do a clone of this repository, and then run quickstart.sh
 
+Ubuntu Users: use quickstart-ubuntu.sh instead of quickstart.sh, unless using the minimal version.
+
 For Experts: There is now a minimal version of this script that only installs the bare minimum (That being quickstart-min.sh). only use this if you know what you're doing!
 
 ## Notes

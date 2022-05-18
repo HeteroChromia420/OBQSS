@@ -16,3 +16,6 @@ sudo sed -i 's/evte/lxterminal/g' /usr/bin/obamenu
 cp -r config_min/* ~/.config
 rm -rf arc-openbox
 sudo cp -r wallpapers /home/
+clear
+echo "Process has completed."
+read -n 1 -s -r -p "Press any key to continue..."

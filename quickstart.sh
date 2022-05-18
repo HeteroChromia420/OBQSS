@@ -21,3 +21,6 @@ cp .gtkrc-2.0 ~/
 cp -r arc-openbox/* ~/.themes
 rm -rf arc-openbox
 sudo cp -r wallpapers /home/
+clear
+echo "Process has completed."
+read -n 1 -s -r -p "Press any key to continue..."

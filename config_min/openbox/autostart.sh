@@ -1,6 +1,5 @@
 pulseaudio --start &
-nitrogen &
-picom &
+nitrogen --restore &
 tint2 &
 nm-applet &
 pnmixer &

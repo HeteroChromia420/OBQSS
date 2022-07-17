@@ -37,6 +37,6 @@ gitSetup(){
     clearScreen
 }
 
-updateSystem && installPackages && setupFlatpak && gitSetup && echo "ALL WORKED!" || echo "Installer failed!"
+updateSystem && installPackages && setupFlatpak && gitSetup && echo "All compents ran successfully!" || echo "Installer failed!"
 echo "Process has completed."
 read -n 1 -s -r -p "Press any key to continue..."

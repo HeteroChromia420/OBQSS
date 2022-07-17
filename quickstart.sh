@@ -26,9 +26,9 @@ setupFlatpak(){
 }
 
 gitSetup(){
-    [[ -a /bin/git ]] git clone https://github.com/dglava/arc-openbox || break
-    [[ -d ~/.themes ]] mkdir ~/.themes
-    [[ -d ~/.config ]] mkdir ~/.config
+    git clone https://github.com/dglava/arc-openbox
+    mkdir ~/.themes
+    mkdir ~/.config
     cp -r config/* ~/.config
     cp .gtkrc-2.0 ~/
     cp -r arc-openbox/* ~/.themes

@@ -15,7 +15,7 @@ installPackages(){
     sudo apt install lxtask lightdm-gtk-greeter-settings gimp xfce4-power-manager git tumbler celluloid mpv youtube-dl synaptic obconf lxrandr eject bash-completion gvfs* qt5-gtk2-platformtheme qt5ct openbox picom package-update-indicator network-manager network-manager-gnome xinit epiphany-browser pcmanfm scite lxterminal xfce4-screenshooter lxappearance pulseaudio alsa-utils xfce4-notifyd pavucontrol engrampa mirage gmrun xserver-xorg xdg-user-dirs wpasupplicant htop xfce4-panel xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin arc-theme desktop-base quodlibet xscreensaver libreoffice papirus-icon-theme galculator flatpak preload --no-install-recommends --no-install-suggests -y
     sudo apt install --install-recommends gnome-software gnome-software-plugin-flatpak -y
     xdg-user-dirs-update
-    #And purge
+    #And purge unwanted packages
     sudo apt purge --auto-remove unattended-upgrades snapd gnome-software-plugin-snap -y
     clearScreen
 }

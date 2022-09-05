@@ -7,7 +7,7 @@ clearScreen(){
 updateSystem(){
     sudo apt update | tee -a obqss-setup.log
     #Perhaps you meant to do this?
-    sudo apt upgrade | tee -a obqss-setup.log
+    sudo apt upgrade -y | tee -a obqss-setup.log
     clearScreen
 }
 

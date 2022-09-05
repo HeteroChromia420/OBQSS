@@ -4,15 +4,15 @@ This Script includes a bunch of pre-configured files that will be used in the sc
 This Script aims to allow users to streamline their installation of openbox on their Linux Distribution
 
 ## Usage
-Do a clone of this repository, and then execute quickstart.sh.
+Do a clone of this repository, and then execute `quickstart.sh`.
 
 ## Notes
 
-youruser is a just a example, replace it with your actual username.
+`youruser` is a just a example, replace it with your actual username.
 
 ### Startup
 
-Openbox uses a script to automatically start up applications on startup. if you need to add/remove items to that list, the file will be at /home/youruser/.config/openbox/autostart.sh
+Openbox uses a script to automatically start up applications on startup. if you need to add/remove items to that list, the file will be at `/home/youruser/.config/openbox/autostart.sh`
 
 You need to add a "&" after the command if it isn't the last item on the list.
 
@@ -31,4 +31,4 @@ This Script includes the following *Default* Keyboard Shortcuts:
   Meta/Windows Key: Opens the Start Menu
 ```
 
-You can edit /home/youruser/.config/openbox/rc.xml to add/delete shortcuts.
+You can edit `/home/youruser/.config/openbox/rc.xml` to add/delete shortcuts.

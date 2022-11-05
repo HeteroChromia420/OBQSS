@@ -1,5 +1,5 @@
 # The Future
-As it stands, i'll still continue to provide support for the script in the form of fixes as stable releases of debian come. In the future this may no longer be the case as support for Xorg/X11 is waning and is likely to cease getting supported in a near future. Once Debian Stable ceases supporting Xorg/X11, the OpenBox QuickStart Script will be archived. 
+As it stands, i'll still continue to provide support for the script as stable releases of debian come. In the future this may no longer be the case as support for Xorg/X11 is waning and is likely to cease getting supported in a near future. Once Debian Stable ceases supporting Xorg/X11, the OpenBox QuickStart Script will be archived. 
 
 # Openbox QuickStart Script
 

@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#EXTRATODO: Make Variants that work on other distros? What would be the implications of that? What Dependencies i'd need? what distros to focus beyond debian?
 clearScreen(){
     clear
 }

@@ -52,6 +52,8 @@
     </property>
     <property name="plugin-12" type="string" value="clock">
       <property name="digital-format" type="string" value="%I:%M %p"/>
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-time-font" type="string" value="Sans 10"/>
     </property>
     <property name="plugin-1" type="string" value="whiskermenu"/>
   </property>

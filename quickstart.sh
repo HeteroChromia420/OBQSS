@@ -1,6 +1,6 @@
 #!/bin/bash
 #EXTRATODO: Make Variants that work on other distros? What would be the implications of that? What Dependencies i'd need? what distros to focus beyond debian?
-#IMPROVEMENT: Use "Nala" instead of apt.
+#FIXME: Use "Nala" instead of "apt", for god's sake...
 clearScreen(){
     clear
 }

@@ -12,11 +12,11 @@ updateSystem(){
 
 installPackages(){
     
-    #TODO: Find Alternatives to lxsession-logout that work on openbox and don't depend on systemd. I could migrate the rest of the tools (other than lxappearance?) to their XFCE equivalents... 
+    #TODO: Find Alternatives to lxsession-logout that work on openbox and don't depend on systemd. 
 
     #Installing policykit-1-gnome first, then lxsession-logout should fix problems with devuan...
     sudo apt install lightdm lxsession-logout lxpolkit --no-install-recommends --no-install-suggests -y | tee -a obqss-setup.log
-    sudo apt install caffeine ffmpegthumbnailer lightdm-gtk-greeter-settings xfce4-power-manager git tumbler synaptic obconf lxrandr eject bash-completion gvfs* qt5-gtk2-platformtheme qt5ct openbox xcompmgr package-update-indicator network-manager network-manager-gnome xinit falkon pcmanfm mousepad lxterminal flameshot lxappearance pulseaudio alsa-utils dunst pavucontrol engrampa mirage gmrun xserver-xorg xdg-user-dirs wpasupplicant htop xfce4-panel xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin arc-theme desktop-base xscreensaver papirus-icon-theme galculator flatpak preload fonts-noto* --no-install-recommends --no-install-suggests -y | tee -a obqss-setup.log
+    sudo apt install caffeine ffmpegthumbnailer lightdm-gtk-greeter-settings xfce4-power-manager git tumbler synaptic obconf lxrandr eject bash-completion gvfs* qt5-gtk2-platformtheme qt5ct openbox xcompmgr package-update-indicator network-manager network-manager-gnome xinit falkon thunar mousepad xfce4-terminal flameshot lxappearance pulseaudio alsa-utils dunst pavucontrol engrampa mirage gmrun xserver-xorg xdg-user-dirs wpasupplicant htop xfce4-panel xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin arc-theme desktop-base xscreensaver papirus-icon-theme galculator flatpak preload fonts-noto* --no-install-recommends --no-install-suggests -y | tee -a obqss-setup.log
     sudo apt install --install-recommends plasma-discover plasma-discover-backend-flatpak -y | tee -a obqss-setup.log
     xdg-user-dirs-update | tee -a obqss-setup.log
     #And purge unwanted packages

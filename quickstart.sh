@@ -6,12 +6,13 @@ clearScreen(){
 
 updateSystem(){
     sudo apt update | tee -a obqss-setup.log
-    #Perhaps you meant to do this?
     sudo apt upgrade -y | tee -a obqss-setup.log
     clearScreen
 }
 
 installPackages(){
+    
+    #TODO: Find Alternatives to lxsession-logout that work on flatpak and don't depend on systemd. I could migrate the rest of the tools (other than lxappearance?) to their XFCE equivalents...
     #Installing policykit-1-gnome first, then lxsession-logout should fix problems with devuan...
     sudo apt install lightdm lxsession-logout lxpolkit --no-install-recommends --no-install-suggests -y | tee -a obqss-setup.log
     sudo apt install caffeine ffmpegthumbnailer lightdm-gtk-greeter-settings xfce4-power-manager git tumbler synaptic obconf lxrandr eject bash-completion gvfs* qt5-gtk2-platformtheme qt5ct openbox xcompmgr package-update-indicator network-manager network-manager-gnome xinit falkon pcmanfm mousepad lxterminal flameshot lxappearance pulseaudio alsa-utils dunst pavucontrol engrampa mirage gmrun xserver-xorg xdg-user-dirs wpasupplicant htop xfce4-panel xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin arc-theme desktop-base xscreensaver papirus-icon-theme galculator flatpak preload fonts-noto* --no-install-recommends --no-install-suggests -y | tee -a obqss-setup.log

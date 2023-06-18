@@ -39,7 +39,5 @@ gitSetup(){
     clearScreen
 }
 
-#FIXME: The error handler doesn't work properly at the moment... Too Bad!
-updateSystem && installPackages && setupFlatpak && gitSetup && echo "All components are installed successfully! Feel free to check obqss-setup.log." || echo "One or more components failed to install. Please check obqss-setup.log."
-echo "Process has completed."
+updateSystem && installPackages && setupFlatpak && gitSetup && echo "Process has been completed. Feel free to check obqss-setup.log."
 read -n 1 -s -r -p "Press any key to continue..."

@@ -10,7 +10,7 @@ updateSystem(){
 }
 
 detectDistro(){
-	//TODO: Write Code to detect What Kind of Distro you're running.	
+	//TODO: Write Code to detect What Kind of Distro you are running.	
 }
 
 installPackages(){

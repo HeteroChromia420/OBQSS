@@ -4,18 +4,30 @@ clearScreen(){
 }
 
 updateSystem(){
-    sudo apt update | tee -a obqss-setup.log
-    sudo apt upgrade -y | tee -a obqss-setup.log
-    clearScreen
+	detectDistro &&
+	//TODO: Write Logic Segment to determine what Variant of the script to run.
 }
 
 detectDistro(){
 	//TODO: Write Code to detect What Kind of Distro you are running.	
 }
 
+updateSystemDebian(){
+    sudo apt update | tee -a obqss-setup.log
+    sudo apt upgrade -y | tee -a obqss-setup.log
+    clearScreen
+}
+
+updateSystemAlpine(){
+	//TODO: Write Function
+}
+
+updateSystemFreeBSD(){
+	//TODO: Write Function
+}
+
 installPackages(){
-	detectDistro &&
-	//TODO: Point to the right distro script with that function.
+	//TODO: Write Logic Segment to determine what Variant of the script to run.
 }
 
 

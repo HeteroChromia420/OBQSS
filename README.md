@@ -6,6 +6,10 @@ As it stands, i'll still continue to provide support for the script as stable re
 This Script includes a bunch of pre-configured files that will be used in the script, as well as the script itself.
 This Script aims to allow users to streamline their installation of openbox on their Linux Distribution
 
+# Ideology/Objectives
+
+My Goal with the OpenBox QuickStart Script (or OBQSS for short) is to provide a configuration for openbox on debian that has a balance between ease of use and being lightweight.
+
 ## Usage
 Do a clone of this repository, and then execute `quickstart.sh`.
 

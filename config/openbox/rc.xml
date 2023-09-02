@@ -318,7 +318,7 @@
     <!-- Keybindings for running applications (Configured By The Openbox Quickstart Script) -->
     <keybind key="A-e">
       <action name="Execute">
-       <command>thunar</command>
+       <command>pcmanfm</command>
       </action>
     </keybind>
     <keybind key="A-r">

@@ -34,4 +34,4 @@ This Script includes the following *Default* Keyboard Shortcuts:
   Meta/Windows Key: Opens the Start Menu
 ```
 
-You can edit `/home/youruser/.config/openbox/rc.xml` to add/delete shortcuts.
+You can edit `/home/youruser/.config/openbox/rc.xml` to add/delete shortcuts. You can head to http://openbox.org/wiki/Help:Bindings if you require further documentation on how editing keyboard shortcuts work.

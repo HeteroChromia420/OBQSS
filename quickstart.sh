@@ -22,7 +22,7 @@ installPackages(){
 }
 
 setupFlatpak(){
-    sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo | tee -a obqss-setup.log
+    flatpak remote-add --if-not-exists --user flathub https://flathub.org/repo/flathub.flatpakrepo | tee -a obqss-setup.log
     clearScreen
 }
 

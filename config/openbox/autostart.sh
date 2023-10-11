@@ -1,5 +1,6 @@
-sleep 1 && /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
-pulseaudio --start &
+sleep 1 && lxpolkit
+pipewire &
+pipewire-pulse &
 pcmanfm --desktop &
 xcompmgr &
 xfce4-panel &

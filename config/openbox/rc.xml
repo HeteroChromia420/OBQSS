@@ -344,7 +344,7 @@
 
     <keybind key="A-Down">
       <action name="Execute">
-       <command>pamixer -d 5-</command>
+       <command>pamixer -d 5</command>
       </action>
     </keybind>
 

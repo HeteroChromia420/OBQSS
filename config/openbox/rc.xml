@@ -338,13 +338,13 @@
     </keybind>
     <keybind key="A-Up">
       <action name="Execute">
-       <command>amixer set 'Master' 5%+</command>
+       <command>pamixer -i 5</command>
       </action>
     </keybind>
 
     <keybind key="A-Down">
       <action name="Execute">
-       <command>amixer set 'Master' 5%-</command>
+       <command>pamixer -d 5-</command>
       </action>
     </keybind>
 

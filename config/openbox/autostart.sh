@@ -1,4 +1,4 @@
-sleep 1 && lxpolkit &
+lxpolkit &
 wireplumber &
 pipewire &
 pipewire-pulse &

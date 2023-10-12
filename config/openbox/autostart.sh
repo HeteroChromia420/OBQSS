@@ -1,4 +1,5 @@
-sleep 1 && lxpolkit
+sleep 1 && lxpolkit &
+wireplumber &
 pipewire &
 pipewire-pulse &
 pcmanfm --desktop &

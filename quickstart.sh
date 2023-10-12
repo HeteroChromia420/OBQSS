@@ -35,7 +35,7 @@ gitSetup(){
     cp -r arc-openbox/* ~/.themes | tee -a obqss-setup.log
     rm -rf arc-openbox | tee -a obqss-setup.log
     sudo cp -r shared /home/ | tee -a obqss-setup.log
-    sudo chmod a+rwx /home/shared
+    sudo chmod a+rwx -R /home/shared
     clearScreen
 }
 

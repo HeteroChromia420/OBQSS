@@ -1,7 +1,5 @@
 lxpolkit &
-wireplumber &
-pipewire &
-pipewire-pulse &
+pulseaudio --start &
 pcmanfm --desktop &
 xcompmgr &
 xfce4-panel &

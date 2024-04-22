@@ -328,12 +328,12 @@
     </keybind>
         <keybind key="C-A-Delete">
       <action name="Execute">
-       <command>xfce4-taskmanager</command>
+       <command>lxtask</command>
       </action>
     </keybind>
     <keybind key="C-A-t">
       <action name="Execute">
-       <command>xfce4-terminal</command>
+       <command>lxterminal</command>
       </action>
     </keybind>
     <keybind key="A-Up">
@@ -352,11 +352,6 @@
     <keybind key="Print">
       <action name="Execute">
         <command>flameshot gui</command>
-      </action>
-    </keybind>
-        <keybind key="Super_L">
-      <action name="Execute">
-        <command>xfce4-popup-whiskermenu</command>
       </action>
     </keybind>
   </keyboard>

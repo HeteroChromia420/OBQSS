@@ -1,0 +1,2 @@
+^sep()
+Exit,/usr/bin/lxsession-logout,system-shutdown

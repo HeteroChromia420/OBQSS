@@ -1,4 +1,4 @@
-# Openbox QuickStart Script
+# Openbox QuickStart Script (Experimental Branch)
 
 This Script includes a bunch of pre-configured files that will be used in the script, as well as the script itself.
 This Script aims to allow users to streamline their installation of openbox on their Linux Distribution
@@ -13,6 +13,16 @@ Do a clone of this repository, and then execute `quickstart.sh`.
 ## Notes
 
 `youruser` is a just a example, replace it with your actual username.
+
+### Battery Indicator
+
+If your system lacks a battery, you might receive low battery notifications. To resolve this:
+
+    Right Click on the start menu.
+    Click on "Panel Items".
+    In the "Elements Selected" section, click on "Battery".
+    Click the right arrow icon between "Elements Selected" and "Elements Available".
+    Press "OK" and close the "Tint2 Panel Themes" window.
 
 ### Startup
 
@@ -31,7 +41,6 @@ This Script includes the following *Default* Keyboard Shortcuts:
   Ctrl+Alt+Del: Launches Task Manager
   Ctrl+Alt+T: Launches Terminal
   Print: Takes a Screenshot
-  Meta/Windows Key: Opens the Start Menu
 ```
 
 You can edit `/home/youruser/.config/openbox/rc.xml` to add/delete shortcuts. You can head to http://openbox.org/wiki/Help:Bindings if you require further documentation on how editing keyboard shortcuts work.

@@ -10,7 +10,7 @@ installPackages(){
     #TODO: Find Alternatives to lxsession-logout that work on openbox and don't depend on systemd.
     #Installing policykit-1-gnome first, then lxsession-logout should fix problems with devuan...
     sudo apt install lightdm lightdm-gtk-greeter-settings lxsession-logout lxpolkit --no-install-recommends --no-install-suggests -y | tee -a obqss-setup.log
-    sudo apt install xdg-desktop-portal-gtk xfce4-taskmanager caffeine ffmpegthumbnailer xfce4-power-manager git tumbler synaptic obconf lxrandr eject bash-completion gvfs* qt5-gtk2-platformtheme qt5ct openbox xcompmgr package-update-indicator network-manager network-manager-gnome xinit falkon pcmanfm mousepad xfce4-terminal flameshot lxappearance pulseaudio pamixer xfce4-notifyd pavucontrol engrampa mirage gmrun xserver-xorg xdg-user-dirs wpasupplicant htop xfce4-panel xfce4-whiskermenu-plugin xfce4-pulseaudio-plugin arc-theme desktop-base xscreensaver papirus-icon-theme galculator flatpak preload fonts-noto* --no-install-recommends --no-install-suggests -y | tee -a obqss-setup.log
+    sudo apt install gsimplecal libnotify-bin xdg-desktop-portal-gtk lxtask caffeine ffmpegthumbnailer xfce4-power-manager git tumbler synaptic obconf lxrandr eject bash-completion gvfs* qt5-gtk2-platformtheme qt5ct openbox xcompmgr package-update-indicator network-manager network-manager-gnome xinit epiphany-browser pcmanfm scite lxterminal flameshot lxappearance pulseaudio pamixer dunst pavucontrol engrampa mirage gmrun xserver-xorg xdg-user-dirs wpasupplicant htop tint2 jgmenu pnmixer arc-theme desktop-base xscreensaver papirus-icon-theme galculator flatpak fonts-noto* --no-install-recommends --no-install-suggests -y | tee -a obqss-setup.log
     sudo apt install --install-recommends plasma-discover plasma-discover-backend-flatpak -y | tee -a obqss-setup.log
     xdg-user-dirs-update | tee -a obqss-setup.log
     #And purge unwanted packages
@@ -32,7 +32,9 @@ gitSetup(){
     cp -r arc-openbox/* ~/.themes | tee -a obqss-setup.log
     rm -rf arc-openbox | tee -a obqss-setup.log
     sudo cp -r shared /home/ | tee -a obqss-setup.log
-    sudo chmod a+rwx -R /home/shared
+    sudo cp -r config /home/shared | tee -a obqss-setup.log
+    sudo cp setup-postinst.sh /home/shared | tee -a obqss-setup.log
+    sudo chmod a+rx -R /home/shared | tee -a obqss-setup.log
     clear
 }
 

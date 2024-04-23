@@ -15,6 +15,7 @@ For setup-postinst.sh: Any Linux System with bash installed. (bash is required a
 
 ## Usage
 Do a clone of this repository, and then execute `quickstart.sh`. if unsure, run:
+
 ``git clone https://github.com/heterochromia420/obqss`` followed by ``cd obqss`` and ``bash quickstart.sh``
 After running quickstart.sh, do not run `setup-postinst.sh` unless you're setting the openbox session for another user.
 

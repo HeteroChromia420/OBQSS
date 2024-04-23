@@ -336,6 +336,11 @@
        <command>lxterminal</command>
       </action>
     </keybind>
+    <keybind key="C-A-l">
+      <action name="Execute">
+       <command>xscreensaver-command --lock</command>
+      </action>
+    </keybind>
     <keybind key="A-Up">
       <action name="Execute">
        <command>pamixer -i 5</command>

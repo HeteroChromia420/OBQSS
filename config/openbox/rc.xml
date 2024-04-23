@@ -341,13 +341,21 @@
        <command>pamixer -i 5</command>
       </action>
     </keybind>
-
     <keybind key="A-Down">
       <action name="Execute">
        <command>pamixer -d 5</command>
       </action>
     </keybind>
-
+    <keybind key="Super_l">
+      <action name="Execute">
+       <command>pamixer -d 5</command>
+      </action>
+    </keybind>
+    <keybind key="A-m">
+      <action name="Execute">
+       <command>pamixer -t</command>
+      </action>
+    </keybind>
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">

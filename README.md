@@ -20,7 +20,7 @@ Do a clone of this repository, and then execute `quickstart.sh`. if unsure, run:
 After running quickstart.sh, do not run `setup-postinst.sh` unless you're setting the openbox session for another user.
 
 FOR EXPERTS:
-if you aren't running quickstart.sh due to not running a debian-based distribution, obtain the equivalent to the package names in `quickstart.sh`, you can then run `setup-postinst.sh`.
+if you aren't running quickstart.sh due to not running debian or a debian-based distribution, obtain the equivalent to the package names in `quickstart.sh`, you can then run `setup-postinst.sh`.
 
 ## Notes
 

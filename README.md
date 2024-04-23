@@ -21,6 +21,7 @@ After running quickstart.sh, do not run `setup-postinst.sh` unless you're settin
 
 FOR EXPERTS:
 if you aren't running quickstart.sh due to not running debian or a debian-based distribution, obtain the equivalent to the package names in `quickstart.sh`, you can then run `setup-postinst.sh`.
+`setup-postinst.sh` runs a simplified version of `quickstart.sh` that only copies the items in the `config` folder to the user's `home` and `.config` folders.
 
 ## Notes
 

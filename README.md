@@ -11,7 +11,7 @@ My Goal with the OpenBox QuickStart Script (or OBQSS for short) is to provide a 
 
 For quickstart.sh exclusively: a system running Debian GNU/Linux (Or Distributions based on it, as quickstart.sh uses apt to obtain packages, and are expecting Debian's Package Names.)
 
-For setup-postinst.sh: Any Linux System with bash installed. (Though if you haven't run quickstart.sh, you have to install the packages that quickstart.sh provides manually. bash is required as the shell script uses it as the shebang.)
+For setup-postinst.sh: Any Linux System with bash installed. (bash is required as the shell script uses it as the shebang.)
 
 ## Usage
 Do a clone of this repository, and then execute `quickstart.sh`. if unsure, run:

@@ -38,9 +38,12 @@ This Script includes the following *Default* Keyboard Shortcuts:
   Alt+R: Launches Run Dialog
   Alt+Up: Increases Volume
   Alt+Down: Decreases Volume
+  Alt+M: Toggles Mute
+  Ctrl+Alt+L: Locks Screen
   Ctrl+Alt+Del: Launches Task Manager
   Ctrl+Alt+T: Launches Terminal
   Print: Takes a Screenshot
+  Meta/Windows Key: Opens Menu
 ```
 
 You can edit `/home/youruser/.config/openbox/rc.xml` to add/delete shortcuts. You can head to http://openbox.org/wiki/Help:Bindings if you require further documentation on how editing keyboard shortcuts work.

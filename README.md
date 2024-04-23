@@ -7,11 +7,14 @@ This Script aims to allow users to streamline their installation of openbox on t
 
 My Goal with the OpenBox QuickStart Script (or OBQSS for short) is to provide a configuration for openbox on debian that has a balance between ease of use and being lightweight.
 
+## Requirements
+
+For quickstart.sh exclusively: a system running Debian GNU/Linux (Or Distributions based on it)
+For setup-postinst.sh: Any Linux System with bash installed. (Though if you haven't run quickstart.sh, you have to install the packages that quickstart.sh provides manually.)
+
 ## Usage
 Do a clone of this repository, and then execute `quickstart.sh`. if unsure, run:
-```
-git clone https://github.com/heterochromia420/obqss
-```
+``git clone https://github.com/heterochromia420/obqss`` followed by ``cd obqss`` and ``bash quickstart.sh``
 
 ## Notes
 

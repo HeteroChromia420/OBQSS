@@ -346,9 +346,9 @@
        <command>pamixer -d 5</command>
       </action>
     </keybind>
-    <keybind key="Super_l">
+    <keybind key="Super_L">
       <action name="Execute">
-       <command>pamixer -d 5</command>
+       <command>jgmenu</command>
       </action>
     </keybind>
     <keybind key="A-m">

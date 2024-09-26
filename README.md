@@ -32,9 +32,8 @@ if you aren't running quickstart.sh due to not running debian or a debian-based 
 If your system lacks a battery, you might receive low battery notifications. To resolve this:
 
     Right Click on the start menu.
-    Click on "Panel Items".
-    In the "Elements Selected" section, click on "Battery".
-    Click the right arrow icon between "Elements Selected" and "Elements Available".
+    Click on "Battery".
+    Set "Alert if charge lower than" from 20% to 0%.
     Press "OK" and close the "Tint2 Panel Themes" window.
 
 ### Startup

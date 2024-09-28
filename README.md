@@ -103,7 +103,7 @@ File Management
 
 Network & Web
 
-    epiphany: A lightweight web browser, also known as GNOME Web.
+    Falkon: Lightweight web browser.
     xdg-desktop-portal-gtk: Provides support for flatpak applications, enabling desktop integration features.
 
 Customization & Theming
@@ -125,7 +125,7 @@ Notifications & Indicators
 Package Management
 
     flatpak: A system for managing applications in sandboxed environments.
-    gnome-software: A graphical package manager for handling flatpak applications and repositories.
+    Plasma Discover: A graphical package manager for handling flatpak applications and repositories.
 
 ## What this script will not install
 

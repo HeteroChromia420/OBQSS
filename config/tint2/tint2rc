@@ -184,9 +184,9 @@ clock_dwheel_command =
 #-------------------------------------
 # Battery
 battery_tooltip = 1
-battery_low_status = 20
-battery_low_cmd = notify-send "Low Battery" "Your battery charge is low. Please connect your charger." --urgency=critical --icon=battery-caution
-battery_full_cmd = notify-send "Full Battery" "Your battery is fully charged." --urgency=normal --icon=battery-full-charged
+battery_low_status = 0
+battery_low_cmd = 
+battery_full_cmd = 
 bat2_font = Sans 6
 battery_font_color = #ffffff 100
 bat1_format = %p
@@ -199,9 +199,8 @@ battery_rclick_command =
 battery_mclick_command = 
 battery_uwheel_command = 
 battery_dwheel_command = 
-ac_connected_cmd = notify-send "Battery Charging" "Your battery is charging." --urgency=normal --icon=battery-good-charging
-ac_disconnected_cmd = notify-send "Battery Discharging" "Your battery is discharging." --urgency=normal --icon=battery-good
-
+ac_connected_cmd = 
+ac_disconnected_cmd = 
 #-------------------------------------
 # Button 1
 button = new

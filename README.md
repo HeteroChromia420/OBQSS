@@ -27,15 +27,6 @@ if you aren't running quickstart.sh due to not running debian or a debian-based 
 
 `youruser` is a just a example, replace it with your actual username.
 
-### Battery Indicator
-
-If your system lacks a battery, you might receive low battery notifications. To resolve this:
-
-    Right Click on the start menu.
-    Click on "Battery".
-    Set "Alert if charge lower than" from 20% to 0%.
-    Press "OK" and close the "Tint2 Panel Themes" window.
-
 ### Startup
 
 Openbox uses a script to automatically start up applications on startup. if you need to add/remove items to that list, the file will be at `/home/youruser/.config/openbox/autostart.sh`

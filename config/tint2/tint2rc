@@ -184,7 +184,7 @@ clock_dwheel_command =
 #-------------------------------------
 # Battery
 battery_tooltip = 1
-battery_low_status = 0
+battery_low_status = 21
 battery_low_cmd = 
 battery_full_cmd = 
 bat2_font = Sans 6

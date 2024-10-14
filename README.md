@@ -1,3 +1,6 @@
+# NOTE
+Effective of this commit date, This Git repo will be archived until further notice. No Support will be provided.
+
 # Openbox QuickStart Script
 
 This Script includes a bunch of pre-configured files that will be used in the script, as well as the script itself.

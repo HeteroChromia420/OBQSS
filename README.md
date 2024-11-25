@@ -1,3 +1,6 @@
+# NOTICE
+Effective of this commit date, This Git repo will be archived until further notice. No Support will be provided.
+
 # Openbox QuickStart Script
 
 This Script includes a bunch of pre-configured files that will be used in the script, as well as the script itself.
@@ -5,13 +8,13 @@ This Script aims to allow users to streamline their installation of openbox on t
 
 # Ideology/Objectives
 
-My Goal with the OpenBox QuickStart Script (or OBQSS for short) is to provide a configuration for openbox on debian or alpine that has a balance between ease of use and being lightweight.
+My Goal with the OpenBox QuickStart Script (or OBQSS for short) is to provide a configuration for openbox on debian that has a balance between ease of use and being lightweight.
 
 ## Requirements
 
-For quickstart.sh exclusively: a system running Either Debian GNU/Linux (Or Distributions based on it, as quickstart.sh uses apt to obtain packages, and are expecting Debian's Package Names.) or Alpine Linux.
+For quickstart.sh exclusively: a system running Debian GNU/Linux (Or Distributions based on it, as quickstart.sh uses apt to obtain packages, and are expecting Debian's Package Names.)
 
-For setup-postinst.sh: Any Linux System.
+For setup-postinst.sh: Any Linux System with bash installed. (bash is required as the shell script uses it as the shebang.)
 
 ## Usage
 Do a clone of this repository, and then execute `quickstart.sh`. if unsure, run:
@@ -74,14 +77,14 @@ Panels, Menus, & Taskbars
 
 Utilities & Tools
 
-    mousepad: A lightweight text editor for quick edits.
-    rofi: A run dialog for launching applications.
+    l3afpad: A lightweight text editor for quick edits.
+    gmrun: A run dialog for launching applications.
     galculator: A simple calculator utility.
-    arandr: Tool for managing monitor settings and resolution.
+    lxrandr: Tool for managing monitor settings and resolution.
     obconf: GUI configuration tool for Openbox settings.
     lxappearance: Tool for customizing themes, icons, and fonts in GTK applications.
     qt5ct: Configuration tool for managing Qt5 application appearance.
-    picom: A lightweight compositor for window effects like transparency and shadows.
+    xcompmgr: A lightweight compositor for window effects like transparency and shadows.
     libnotify: A library for desktop notifications, used by various applications.
 
 File Management
@@ -89,7 +92,7 @@ File Management
     pcmanfm: A lightweight file manager for managing files, folders, and desktop settings.
     ffmpegthumbnailer: Generates video thumbnails for file managers like PCManFM.
     tumbler: A thumbnail service used by file managers to generate previews for images, PDFs, etc.
-    ristretto: An image viewer for viewing and managing image files.
+    Mirage: An image viewer for viewing and managing image files.
     xarchiver: An archive manager for extracting and creating compressed files.
 
 Network & Web
@@ -116,6 +119,7 @@ Notifications & Indicators
 Package Management
 
     flatpak: A system for managing applications in sandboxed environments.
+    Plasma Discover: A graphical package manager for handling flatpak applications and repositories.
 
 ## What this script will not install
 

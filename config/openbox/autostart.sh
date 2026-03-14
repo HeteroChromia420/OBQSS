@@ -1,7 +1,7 @@
 lxpolkit &
 pulseaudio --start &
 pcmanfm --desktop &
-picom &
+xcompmgr &
 tint2 &
 package-update-indicator &
 nm-applet &

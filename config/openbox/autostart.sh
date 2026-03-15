@@ -1,12 +1,11 @@
 lxpolkit &
 pulseaudio --start &
 pcmanfm --desktop &
-xcompmgr &
-tint2 &
+picom --backend xrender &
+xfce4-panel &
 package-update-indicator &
 nm-applet &
 xfce4-power-manager &
 xscreensaver -nosplash &
 flameshot &
 caffeine-indicator &
-sleep 1 && pnmixer
